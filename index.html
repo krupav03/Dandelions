@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="imgdandelions/TheDandeliong02.png"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- css linked -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Dandelions</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="imgdandelions/icondandelions.png"
+            class="dandelion-icon-image"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav px-2 ms-auto">
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="#firstNavSection"
+              id="homeSection"
+              >Home</a
+            >
+            <a class="nav-link" href="#secondNavSection">Campaigns</a>
+            <a class="nav-link" href="#aboutusSection">About us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner section -->
+    <div
+      class="banner-section-bg-container text-center d-flex flex-column justify-content-center w-100"
+      id="firstNavSection"
+    >
+      <div>
+        <h1 class="banner-heading">Team Dandelions</h1>
+        <p class="banner-description p-2">
+          We came together to find ways to improve living conditions of the
+          society.
+        </p>
+      </div>
+      <div>
+        <a href="#secondNavSection">
+          <button class="btn btn-white custom-buttons nav-button">
+            View Campaigns
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- campaign section -->
+
+    <div class="campaign-section-container w-100" id="secondNavSection">
+      <h1 class="campaign-heading p-3">List of Campaigns</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div
+              class="card-rosy-bg-container d-flex flex-row justify-content-between p-3 m-3"
+            >
+              <div>
+                <h1 class="little-rosy-heading p-2 mt-2">Little Rosy</h1>
+                <p class="little-rosy-paragraph mt-2">
+                  September 2021-December 2021
+                </p>
+                <a href="#rosyCardSection">
+                  <button class="btn btn-dark custom-buttons">View</button>
+                </a>
+              </div>
+
+              <div>
+                <img src="imgdandelions/sanitarypad (1).png" class="rosy-img" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5">
+            <div
+              class="card-annapurna-bg-container justify-content-between d-flex flex-row p-3 m-3"
+            >
+              <div>
+                <h1 class="annapurna-heading p-2 mt-2">Annapurna</h1>
+                <p class="annapurna-paragraph mt-2">February 2022-April 2022</p>
+                <a href="#annaCardSection">
+                  <button class="btn custom-buttons">View</button>
+                </a>
+              </div>
+              <div>
+                <img
+                  src="imgdandelions/annapurna12333.png"
+                  class="annapurna-img m-2"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5">
+            <div
+              class="card-littlejoy-bg-container d-flex flex-row justify-content-between p-3 m-3"
+            >
+              <div>
+                <h1 class="littlejoy-heading p-2 mt-2">Little Joy</h1>
+                <p class="littlejoy-paragraphp-1 mt-1">May 2022-August 2022</p>
+
+                <a href="#littlejoyCardSection">
+                  <button class="btn custom-buttons">view</button>
+                </a>
+              </div>
+              <div>
+                <img
+                  src="imgdandelions/liljoy1.png"
+                  class="littlejoy-img mt-2"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- aboutus card -->
+          <div class="col-12 col-md-5">
+            <div
+              class="card-aboutus-bg-container justify-content-between d-flex flex-row p-3 m-3"
+            >
+              <div>
+                <h1 class="aboutus-heading p-2 mt-2">About us</h1>
+                <p class="aboutus-paragraph p-2 mt-2">-Team Dandelions</p>
+                <a href="#aboutusSection">
+                  <button class="btn custom-buttons">View</button>
+                </a>
+              </div>
+
+              <div>
+                <img
+                  src="imgdandelions/TheDandeliong02.png"
+                  class="aboutus-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#firstNavSection">
+        <button class="btn custom-buttons nav-button m-3">Back</button>
+      </a>
+    </div>
+
+    <!-- little rosy page -->
+    <div class="bg-page p-3 w-100" id="rosyCardSection">
+      <h1 class="heading-page">Little Rosy</h1>
+      <p class="para-page">Let's PADdle for her to be comfortable.</p>
+
+      <!-- carousel -->
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="imgdandelions/rosy1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgdandelions/rosyy2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgdandelions/rosyy3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <p class="rosy-description p-2 m-2">
+        Since September 2021, we have been working on menstrual hygiene campaign
+        distributing free sanitary pads for around 750 women till date and
+        raised menstrual awareness in them. Covering the areas around Kaapula
+        Uppada, Paradesipalem, Vellanki and Boddapalem villages within the
+        limits of Visakhapatnam.
+      </p>
+      <div class="d-flex flex-row justify-content-between">
+        <a href="#secondNavSection">
+          <button class="btn btn-white custom-buttons nav-button">Back</button>
+        </a>
+        <a href="#firstNavSection">
+          <button class="btn btn-white nav-button">Home</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- annapurna page -->
+    <div
+      class="annapurna-page-container bg-page p-2 w-100"
+      id="annaCardSection"
+    >
+      <h1 class="heading-page">Annapurna</h1>
+
+      <!-- carousel -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="imgdandelions/annapurna12.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgdandelions/annapurna2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgdandelions/annapurna3.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <p class="annapurna-description p-2 m-2">
+        Our heartful thanks to everyone who supported us from September 2021 to
+        till date. We are happy that we could give back to the community. For
+        the months from February to April, Annapurna extended her helping hand
+        to the people in need. We distributed around 605 food packets along with
+        760 water bottles, and 30 blankets. The food is cooked in a very
+        hygienic atmosphere. We distributed the blankets only in our first event
+        and understood that it exhausts the funds and on top of that, most of
+        them are having atleast one with them. For that reason, we chose to
+        distribute only food and water bottles.
+      </p>
+
+      <div class="d-flex flex-row justify-content-between">
+        <a href="#secondNavSection">
+          <button class="btn custom-buttons nav-button">Back</button>
+        </a>
+        <a href="#firstNavSection">
+          <button class="btn custom-buttons nav-button">Home</button>
+        </a>
+      </div>
+    </div>
+    <!-- little joy page -->
+    <div
+      class="little-joy-page-container bg-page p-3 w-100"
+      id="littlejoyCardSection"
+    >
+      <h1 class="heading-page">Little Joy</h1>
+
+      <!-- carousel -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="imgdandelions/joyy2 (2).png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgdandelions/joyy2 (3).png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgdandelions/joyy2 (1).png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p class="little-joy-description p-2 m-2">
+        Our heartful thanks to everyone who supported us from September 2021 to
+        till date. We are happy that we could give back to the community. For
+        the months from May to August, Little Joy extended her helping hand to
+        the children in need. We have provided three orphanages stationary and
+        served cooked food for two days, In addition to that some of them
+        required groceries and we have extended our hand to help them with the
+        necessary requirements.
+      </p>
+
+      <div class="d-flex flex-row justify-content-between">
+        <a href="#secondNavSection">
+          <button class="btn btn-white custom-buttons nav-button">Back</button>
+        </a>
+        <a href="#firstNavSection">
+          <button class="btn btn-white custom-buttons nav-button">Home</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- about us page -->
+    <div class="bg-page w-100">
+      <div
+        class="aboutus-page-container text-center p-3 bg-page"
+        id="aboutusSection"
+      >
+        <h1 class="heading-page">✨Team Dandelions✨</h1>
+        <p class="para-page">
+          We have recieved donations from a number of people and we have
+          included our money and efforts to help the need in the city. We hereby
+          clearly state that we took nothing from the donations and this is
+          soley a social service.We are thankful to the people who stood with us
+          all the way.
+        </p>
+      </div>
+      <div class="naming-about pb-3 pt-3 px-3 bg-page">
+        <p>1.Vavilapalli Sri Lakshmi Sai Krupa</p>
+        <p>2.Bantupalli Yamini Supriya</p>
+        <p>3.Bodasingi Sneha</p>
+        <p>4.Ganti Alekhya</p>
+        <p>5.Gari Samrudhi</p>
+        <p>6.Polamarasetty Divya Monica Joshi</p>
+        <p>7.Puvvala Sai Srujana</p>
+      </div>
+
+      <div class="followus-section bg-page">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="follow-us-section-heading">Follow Us</h1>
+              <a
+                href="https://instagram.com/_the_dandelions_?igshid=YmMyMTA2M2Y="
+                target="_blank"
+              >
+                <div class="d-flex justify-content-center">
+                  <div class="follow-us-icon-container">
+                    <i class="fab fa-instagram icon"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section pt-2 pb-3 bg-page">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <img src="" class="dandelions-logo" />
+              <h1 class="footer-section-mail-id">dandelionsthe@gmail.com</h1>
+              <p class="footer-section-address">
+                Visakhapatnam, Andhra Pradesh, India.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-between">
+        <a href="#secondNavSection" class="m-2">
+          <button class="btn btn-white custom-buttons nav-button">Back</button>
+        </a>
+        <a href="#firstNavSection" class="m-2">
+          <button class="btn btn-white custom-buttons nav-button">Home</button>
+        </a>
+      </div>
+    </div>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

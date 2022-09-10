@@ -1,0 +1,242 @@
+body {
+  font-family: "montserrat", sans-serif;
+  background-color: #d6e5fa;
+}
+
+/* icon-img */
+.dandelion-icon-image {
+  width: 14rem;
+  padding: 0.2rem 1.5rem;
+}
+
+/* nav bar sections */
+.nav-link {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  color: #777 !important;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #333;
+}
+.nav-link:hover,
+.nav-link:active {
+  transform: scale(1.1);
+  color: #6e85b7 !important;
+}
+
+/* banner section */
+.banner-section-bg-container {
+  background-image: linear-gradient(
+      rgba(51, 51, 51, 0.7),
+      rgba(51, 51, 51, 0.7)
+    ),
+    url("imgdandelions/bg-front.jpg");
+  height: 100vh;
+}
+.banner-heading {
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+}
+.banner-description {
+  font-size: 20px;
+  color: white;
+}
+
+/* campaign section container */
+.campaign-section-container {
+  background-color: #d6e5fa;
+}
+.campaign-heading {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* cards */
+
+/* rosy card */
+.card-rosy-bg-container {
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.little-rosy-heading {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.little-rosy-paragraph {
+  font-size: 16px;
+  color: black;
+}
+
+.rosy-img {
+  width: 10rem;
+  border-radius: 8px;
+}
+
+/* annapurna card */
+.card-annapurna-bg-container {
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.annapurna-heading {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.annapurna-paragraph {
+  font-size: 16px;
+  color: black;
+}
+
+.annapurna-img {
+  width: 150px;
+  height: 145px;
+  border-radius: 8px;
+}
+
+/* ltlle joy card */
+.card-littlejoy-bg-container {
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.littlejoy-heading {
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.littlejoy-paragraph {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+}
+
+.littlejoy-img {
+  width: 145px;
+  height: 145px;
+  border-radius: 8px;
+}
+
+/* aboutus card */
+.card-aboutus-bg-container {
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.aboutus-heading {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.aboutus-paragraph {
+  font-size: 16px;
+  color: black;
+}
+
+.aboutus-img {
+  width: 9rem;
+  border-radius: 8px;
+}
+
+/* pages */
+.heading-page {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+.para-page {
+  color: #333;
+  text-align: justify;
+}
+
+/* rosy page description */
+.rosy-description {
+  font-size: 16px;
+  color: black;
+  text-align: justify;
+}
+
+/* annapurna page */
+.annapurna-description {
+  font-size: 16px;
+  text-align: justify;
+  color: black;
+}
+
+/* littlejoy description */
+.little-joy-description {
+  font-size: 16px;
+  color: black;
+  text-align: justify;
+}
+
+/* follous section */
+
+.followus-section {
+}
+.follow-us-section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+  text-align: center;
+}
+.follow-us-icon-container {
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+  margin: 15px;
+}
+.icon {
+  color: #6e85b7;
+  /* background-color: white; */
+  font-size: 35px;
+}
+
+.custom-buttons {
+  font-weight: 500;
+  background-color: rgba(156, 191, 230, 0.592);
+  color: #333;
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.custom-buttons:hover,
+.custom-buttons:active {
+  background-color: #6e85b7 !important;
+  color: #fff !important;
+}
+
+.nav-button {
+  background-color: white;
+}
+.bg-page {
+  background-color: #d6e5fa;
+}
+.para-page {
+  font-size: 18px;
+}
